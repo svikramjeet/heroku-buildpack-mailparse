@@ -10,12 +10,7 @@ apt-get install -y php-dev
 
 # Download and compile mailparse extension
 cd $BUILD_DIR
-git clone https://github.com/php/pecl-mail-mailparse.git
-cd pecl-mail-mailparse
-phpize
-./configure
-make
-make install
+pecl install mailparse 
 
 # Add the mailparse extension to php.ini
 echo "extension=mailparse.so" > $BUILD_DIR/.heroku/php/php.ini
