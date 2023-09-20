@@ -6,7 +6,6 @@ ENV_DIR=$3
 
 # Install necessary dependencies
 apt-get update
-apt-get install -y php-dev
 
 # Download and compile mailparse extension
 cd $BUILD_DIR
