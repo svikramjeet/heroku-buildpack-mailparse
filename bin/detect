@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
 
-echo 'heroku-buildpack-mailparse'
+echo 'heroku-buildpack-mailparse-test'
 exit 0
